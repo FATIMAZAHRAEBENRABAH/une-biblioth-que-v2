@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Gestion d'ouvrages dans une bibliothèque v1</title>
+  <link rel="stylesheet" href="Gestion d'ouvrages dans une bibliothèque v2.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <form id="form" name="inpuutt" onsubmit="event.preventDefault();onFormSubmit();">
+
+      <h2>Ajouter d'un nouvel ouvrage</h2>
+
+      <div class="input">
+
+        <input id="Titre" type="text" placeholder="Titre..." >
+        <label for="text"></label>
+        <input id="Auteur" type="text" placeholder="Auteur..." >
+        <label for="Auteur"></label>
+        <input id="Prix" type="number" placeholder="Prix..." >
+        <label for="Prix"></label>
+        <input id="Email" type="email" placeholder="Email..." >
+        <label for="Email"></label>
+        <input id="Date" type="Date" placeholder="Date de publication..." >
+        <label for="Date"></label>
+        
+      </div>
+
+      <select id="option">
+
+        <option value="Arabe">Arabe</option>
+        <option value="Français">Français</option>
+        <option value="Anglais">Anglais</option>
+
+      </select>
+
+      <div id="type">
+
+        <input id="Roman" name="owen" type="radio" value="Roman">
+        <label for="Roman">Roman</label>
+        <input id="Essai" name="owen" type="radio" value="Essai">
+        <labelfor="Essai">Essai</label>
+          <input id="Bande" name="owen" type="radio" value="Bande-Dessinée">
+          <label for="Bande-Dessinée">Bande-Dessinée</label>
+
+      </div>
+   
+   <button id="Ajouter" type="button" > Ajouter </button>
+
+   <button id="update" type="button"  > update </button>
+
+    </form>
+
+  </div>
+
+  <center>
+
+    <table class="table"  border="1" cellpadding='5'>
+
+      <thead>
+
+      <tr>
+        <th> Titre </th>
+        <th> Auteur </th>
+        <th> prix /DH </th>
+        <th> Email </th>
+        <th> Date de publication</th>
+        <th> langue </th>
+        <!-- <th> type </th> -->
+        <th> Action </th>
+      </tr>
+
+    </thead>
+
+    <tbody id="bodyy">
+      
+    </tbody>
+
+    </table>
+
+  </center>
+
+  <script src="Gestion d'ouvrages dans une bibliothèque v2.js"></script>
+  <script src="class.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url(background\ \ v2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+    
+.container{
+    max-width: 400px;
+    height: 550px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 20px;
+    padding: 40px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+h2{  margin-top: -20px;
+    color: chocolate;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+input[type=text],input[type=date],input[type=number],input[type=email]{
+    width: 100%;
+    margin: 10px 0;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 6px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-bottom: 1px #fff solid;
+}
+
+#option{
+    width: 100%;
+    margin: 10px 0;
+    outline: none;
+    padding: 10px 10px;
+    font-weight: bold;
+    border: none;
+    border-bottom: 1px  black  solid;
+    
+}
+
+#Ajouter,#update{
+    background-color: chocolate;
+    font-size: 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    border: 0px;
+    margin-top: 20px;
+    margin-left: 94px;
+    color: rgb(8, 8, 8);
+}
+
+#Date{
+    background-color: rgb(243, 247, 246);
+    color: black;
+ 
+}
+
+.table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    margin-top: 50px;
+    width: 50%;
+    color: white;
+  
+}
+
+.style-tableau td , .table th {
+    border: 1px solid #fff;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+
+}
